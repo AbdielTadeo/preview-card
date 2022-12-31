@@ -9,3 +9,24 @@
     --vdbLine: hsl(215, 32%, 27%);
     --white: hsl(0, 0, 100%);
 }
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    background-color: var(--vdbMain);
+}
+p {
+    font-size: 'Outfit', sans-serif;
+}
+/* Utility */
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+/* --------------------------------- */
